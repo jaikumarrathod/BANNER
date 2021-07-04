@@ -1,0 +1,191 @@
+*{
+    background-color: #F1F0F4
+    ;}
+.headings{
+    background-color: indigo;
+    font-size: 300;
+    border-radius: 57px;
+    text-align: center;
+    color: wheat;
+    font-size: 20m;
+    font-size: 2em;
+    border: chocolate;
+    border: double;
+    width: 16em;
+    height: 1.5em;
+    padding: 0em;
+    /* margin-block: 1em; */
+    margin: 1em;
+    padding-top: 0em;
+    margin-top: 2em;
+}
+.obesity{
+    color: #1205AA;
+    width: 20em;
+    padding-left: 3em;
+    font-size: 1.5em;
+    margin: 3em;
+    padding: 0em;
+}
+.increasing{
+    margin-top: -2em;
+}
+
+.cup1{
+    width: 10em;
+    height: 14m;
+    height: 4em;
+}
+.cup2{
+    width: 10em;
+    height: 5em;
+}
+.french{
+    width: 12em;
+    height: 9em;}
+.donut{
+    width: 12em;
+    height: 9em;
+}
+.soda{
+    width: 12em;
+    height: 9em;
+}
+.donut2{
+    width: 10em;
+    height: 10em;
+    margin: -2em;
+}
+.ice{
+    width: 8em;
+  
+    height: 8em;
+}
+.pizza1{
+    width: 8em;
+    height: 8em;
+}
+.soda3{
+    height: 12em;
+    width: 8em;
+    margin: -5em;
+}
+.adults{
+    color: chartreuse;
+    font-size: 2em;
+}
+.human{
+    width: 2em;
+    height: 7em;
+}
+
+.vertical{
+    margin-top: -1344px;
+    border-left: 2px dashed #39A2DB;
+    height: 1314px;
+    position: absolute;
+    left: 50%;
+    background-color: white;
+    margin-right: 30px;
+}
+.headingsR1{
+    margin: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.right{
+    margin-top: -1344px;
+    height: 1314px;
+    position: absolute;
+    left: 50%;
+    margin-right: 30px;
+    padding-left: 1em;
+}
+.healthy{
+    color: #373737;
+    MARGIN: 3EM;
+    padding: 0em;color:#373737
+    font-size: 1em;
+    padding-left: 3em;
+    border: -39em;
+}
+.perc{
+    font-size: 2em;
+    color: #00F215;
+}
+.whole{
+    font-size: 1.5em;
+    padding-left: 3em;
+    margin: auto;
+}
+
+.bread{
+    height: 4.5em;
+    width: 5.5em;
+    padding-left: 7em;
+}
+
+.rightheading{
+    margin: 0em;
+    background-color: indigo;
+    font-size: 300;
+    border-radius: 329px;
+    text-align: center;
+    color: wheat;
+    font-size: 20m;
+    font-size: 3em;
+    border: chocolate;
+    border: double;
+    width: 13em;
+    height: 1.5em;
+}
+.tab{
+    margin: 0em;
+    padding-left: 6em;
+}
+.tab{
+    padding: 0px;
+    margin: 0px;
+}
+.fruits{
+    width: 4em;
+    height: 4em;
+    padding-left: 7em;
+}
+.fish{
+    height: 6em;
+    width: 8em;
+    padding left: 6em;
+    padding-left: 6em;
+}
+.milk{
+    width: 9em;
+    height: 6em;
+    padding-left: 6em;
+}
+.inj{
+    width: 12em;
+    height: 12em;
+}
+.stroke{
+    width: 12em;
+    height: 12em;
+}
+.cancer{
+    width: 12em;
+    height: 12em;
+}
+.left{
+    padding-left: 10em;
+}
+.diabetes{
+    font-size: 1.5em;
+    color:#0B0084
+}
+.mi{
+
+}
+.abcd{
+font-size: 1em;
+color: #00F215;
+}
