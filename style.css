@@ -1,6 +1,6 @@
 *{
-    background-color: #F1F0F4
-    ;}
+    background-color: #F1F0F4;
+    }
 .headings{
     background-color: indigo;
     font-size: 300;
@@ -17,18 +17,20 @@
     /* margin-block: 1em; */
     margin: 1em;
     padding-top: 0em;
-    margin-top: 2em;
+    margin-top: 0em;
 }
 .obesity{
     color: #1205AA;
     width: 20em;
     padding-left: 3em;
-    font-size: 1.5em;
-    margin: 3em;
+    font-size: 44px;
+    margin: 0em;
     padding: 0em;
 }
-.increasing{
-    margin-top: -2em;
+.Increasing{
+    
+    font-size: 30px;
+
 }
 
 .cup1{
@@ -114,7 +116,7 @@
     color: #00F215;
 }
 .whole{
-    font-size: 1.5em;
+    font-size: 22px;
     padding-left: 3em;
     margin: auto;
 }
@@ -148,8 +150,8 @@
     margin: 0px;
 }
 .fruits{
-    width: 4em;
-    height: 4em;
+    width: 100px;
+    height: 100px;
     padding-left: 7em;
 }
 .fish{
@@ -176,7 +178,7 @@
     height: 12em;
 }
 .left{
-    padding-left: 10em;
+    padding-left: 4em;
 }
 .diabetes{
     font-size: 1.5em;
@@ -188,4 +190,25 @@
 .abcd{
 font-size: 1em;
 color: #00F215;
+}
+.headings1{
+    background-color: indigo;
+    font-size: 300;
+    border-radius: 57px;
+    text-align: center;
+    color: wheat;
+    font-size: 20m;
+    font-size: 2em;
+    border: chocolate;
+    border: double;
+    width: 16em;
+    height: 1.5em;
+    padding: 0em;
+    /* margin-block: 1em; */
+    margin: 1em;
+    padding-top: 0em;
+    margin-top: 2em;
+}
+.grain1{
+    font-size: 50px;
 }
