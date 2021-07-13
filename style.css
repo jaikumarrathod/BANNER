@@ -261,7 +261,7 @@
     font-weight: 700;
     color: rgb(30, 209, 241);
 }
-@media only screen and (min-width: 480px){
+@media(min-width: 480px){
     .total{
         display: grid;
     grid-template-columns: 1fr 1fr;
@@ -296,7 +296,7 @@
 
 
 
-@media only screen and (min-width: 992px){
+@media(min-width: 992px){
 .total{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -327,7 +327,4 @@
     font-size: 1.25rem;
     font-weight: 300;
     color: silver;
-}
-.body{
-    
 }
