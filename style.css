@@ -1,214 +1,333 @@
-*{
-    background-color: #F1F0F4;
-    }
-.headings{
-    background-color: indigo;
-    font-size: 300;
-    border-radius: 57px;
-    text-align: center;
-    color: wheat;
-    font-size: 20m;
-    font-size: 2em;
-    border: chocolate;
-    border: double;
-    width: 16em;
-    height: 1.5em;
-    padding: 0em;
-    /* margin-block: 1em; */
-    margin: 1em;
-    padding-top: 0em;
-    margin-top: 0em;
-}
-.obesity{
-    color: #1205AA;
-    width: 20em;
-    padding-left: 3em;
-    font-size: 44px;
-    margin: 0em;
-    padding: 0em;
-}
-.Increasing{
+.total{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 510px 510px;
+    grid-template-areas:
+        "a b"
+        "c d";
     
+    text-align: center;
+    font-size: 12px;
+    background-color: #C25EBE
+    width: 1020px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topleft{
+    grid-area: a;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px dashed rgb(30, 209, 241);
+}
+.heading{
+    color: rgb(30, 209, 241);
+    font-size: 35px;
+    font-weight: 750;
+    color: cornflowerblue;
+}
+.grey{
+    padding-top: 0.5em;
+    color: gray;
+    font-weight: 750;
+}
+.info{
+    color: gold;
+}
+.banner{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+ background-color: rgb(750,150,950);
+    text-align: center;
+    margin-top: 1em;
+    font-size: 24px;
+    padding: 0px 0px 2px 0px;
+}
+.inline{
+
+        padding-top: 10px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template:
+            "a1 a1 a1"
+            "b1 c1 c1"
+            "d1 e1 f1";
+
+}
+.portion{
     font-size: 30px;
-
+    grid-area: a1;
+    color: navy;
+    text-align: left;
+    font-weight: 600;
 }
-
-.cup1{
-    width: 10em;
-    height: 14m;
-    height: 4em;
+.lrm{
+    grid-area: b1;
+    color: rgb(30, 209, 241);
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
 }
-.cup2{
-    width: 10em;
-    height: 5em;
-}
-.french{
-    width: 12em;
-    height: 9em;}
-.donut{
-    width: 12em;
-    height: 9em;
-}
-.soda{
-    width: 12em;
-    height: 9em;
-}
-.donut2{
-    width: 10em;
-    height: 10em;
-    margin: -2em;
-}
-.ice{
-    width: 8em;
-  
-    height: 8em;
-}
-.pizza1{
-    width: 8em;
-    height: 8em;
-}
-.soda3{
-    height: 12em;
-    width: 8em;
-    margin: -5em;
-}
-.adults{
-    color: chartreuse;
-    font-size: 2em;
-}
-.human{
-    width: 2em;
-    height: 7em;
-}
-
-.vertical{
-    margin-top: -1344px;
-    border-left: 2px dashed #39A2DB;
-    height: 1314px;
-    position: absolute;
-    left: 50%;
-    background-color: white;
-    margin-right: 30px;
-}
-.headingsR1{
-    margin: 0px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-}
-.right{
-    margin-top: -1344px;
-    height: 1314px;
-    position: absolute;
-    left: 50%;
-    margin-right: 30px;
-    padding-left: 1em;
-}
-.healthy{
-    color: #373737;
-    MARGIN: 3EM;
-    padding: 0em;color:#373737
-    font-size: 1em;
-    padding-left: 3em;
-    border: -39em;
-}
-.perc{
-    font-size: 2em;
-    color: #00F215;
-}
-.whole{
-    font-size: 22px;
-    padding-left: 3em;
-    margin: auto;
-}
-
-.bread{
-    height: 4.5em;
-    width: 5.5em;
-    padding-left: 7em;
-}
-
-.rightheading{
-    margin: 0em;
-    background-color: indigo;
-    font-size: 300;
-    border-radius: 329px;
-    text-align: center;
-    color: wheat;
-    font-size: 20m;
-    font-size: 3em;
-    border: chocolate;
-    border: double;
-    width: 13em;
-    height: 1.5em;
-}
-.tab{
-    margin: 0em;
-    padding-left: 6em;
-}
-.tab{
-    padding: 0px;
-    margin: 0px;
-}
-.fruits{
+.images {
     width: 100px;
-    height: 100px;
-    padding-left: 7em;
 }
-.fish{
-    height: 6em;
-    width: 8em;
-    padding left: 6em;
-    padding-left: 6em;
+.x1 {
+    grid-area: c1;
 }
-.milk{
-    width: 9em;
-    height: 6em;
-    padding-left: 6em;
+.x2 {
+    grid-area: d1;
 }
-.inj{
-    width: 12em;
-    height: 12em;
+.img2{
+    
 }
-.stroke{
-    width: 12em;
-    height: 12em;
+.img3{
+    
 }
-.cancer{
-    width: 12em;
-    height: 12em;
+.img4{
+    
 }
-.left{
-    padding-left: 4em;
+.bottomleft{
+    grid-area: c;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px dashed rgb(30, 209, 241);
 }
-.diabetes{
-    font-size: 1.5em;
-    color:#0B0084
+.doc3{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "a b"
+        "c d"
+        "e f"
+        "g h";
 }
-.mi{
+.doc4{
+    grid-area: a;
+    text-align: end;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.doc5 {
+    grid-area: c;
+    text-align: right;
+}
+.doc6 {
+    grid-area: e;
+    text-align: right;
+}
+.doc7 {
+    grid-area: g;
+    text-align: right;
+}
+.near {
+    font-size: 30px;
+    color: navy;
+    font-weight: 600;
+}
+.percent {
+    font-size: 45px;
+    color: gold;
+    font-weight: 500;
+}
+.img5 {
+    grid-area: b;
+    width: 250px;
+}
+.suffer{
 
 }
-.abcd{
-font-size: 1em;
-color: #00F215;
+.img756{
+    width: 44px;
+    height: 50px;
 }
-.headings1{
-    background-color: indigo;
-    font-size: 300;
-    border-radius: 57px;
-    text-align: center;
-    color: wheat;
-    font-size: 20m;
-    font-size: 2em;
-    border: chocolate;
-    border: double;
-    width: 16em;
-    height: 1.5em;
-    padding: 0em;
-    /* margin-block: 1em; */
-    margin: 1em;
-    padding-top: 0em;
-    margin-top: 2em;
+.young {
+    font-size: 15px;
+    font-weight: 600;
+    color: gold;
 }
-.grain1{
-    font-size: 50px;
+.adult {
+    font-size: 15px;
+    font-weight: 600;
+    color: gold;
+}
+.prcnt {
+    font-size: 30px;
+    font-weight: 600;
+    color: navy;
+}
+.child {
+    font-size: 15px;
+    font-weight: 600;
+    color: gold;
+}
+.topright {
+    grid-area: b;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bottomright {
+    grid-area: d;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.suffer {
+    font-size: 11px;
+    color: rgb(30, 209, 241);
+    font-weight: 700;
+}
+.healthy {
+    font-size: 30px;
+    color: navy;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.eating {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(30, 209, 241);
+}
+#f11 {
+    width: 100px;
+}
+#f14 {
+    width: 200px;
+}
+#f13 {
+    width: 170px;
+}
+#f12 {
+    width: 135px;
+}
+.doc10 {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-areas:
+        "i j"
+        "k l"
+        "m n";
+    padding-top: 20px;
+}
+.img7 {
+    grid-area: i;
+}
+.img8 {
+    grid-area: k;
+}
+.img9 {
+    grid-area: m;
+}
+.doc11 {
+    grid-area: j;
+    text-align: left;
+}
+.doc12 {
+    grid-area: l;
+    text-align: left;
+}
+.doc13 {
+    grid-area: n;
+    text-align: left;
+}
+.dsc {
+    font-size: 20px;
+    font-weight: 700;
+    color: navy;
+}
+.eightlakh {
+    font-size: 25px;
+    font-weight: 600;
+    color: gold;
+}
+.chicken{
+    width: 70px;
+    height: 70px;
+}
+.veggies{
+    width: 70px;
+    height: 70px;
+}
+.bread{
+    width: 70px;
+    height: 70px;
+}
+.cupcake{
+    width: 150px;
+    height: 150px;
+}
+.ipsum {
+    font-weight: 700;
+    color: rgb(30, 209, 241);
+}
+@media only screen and (min-width: 480px){
+    .total{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+    .navbar-toggler{
+     
+        background-color: white !important;
+    }
+
+   
+    .image{
+        width: 20rem;
+    }
+
+    
+
+    .oneline{
+        font-size: 1rem;
+    }
+
+     
+
+     .border{
+         margin-top: 3rem;
+     }
+
+     .half{
+         width: 100%;
+     }
+
+}
+
+
+
+@media only screen and (min-width: 992px){
+.total{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+   .image{
+       width: auto;
+   }
+
+
+
+   .oneline{
+    font-size: 2rem;
+   }
+
+   .full{
+    width: 100%;
+    }
+
+    .half
+    {
+        width :50%;
+    
+    }
+
+
+}
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: silver;
+}
+.body{
+    
 }
